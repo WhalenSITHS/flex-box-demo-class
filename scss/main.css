@@ -1,0 +1,106 @@
+.header {
+  height: 95vh;
+  background-image: -webkit-gradient(linear, left top, right bottom, from(rgba(233, 30, 99, 0.5)), to(rgba(248, 187, 208, 0.5))), url(../img/building.jpg);
+  background-image: linear-gradient(to right bottom, rgba(233, 30, 99, 0.5), rgba(248, 187, 208, 0.5)), url(../img/building.jpg);
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.header-title-box {
+  font-size: 7rem;
+  text-transform: uppercase;
+  letter-spacing: 1rem;
+  text-align: center;
+}
+
+.about {
+  height: 100vh;
+  width: 99vw;
+}
+
+.about-header {
+  font-size: 4rem;
+  text-align: center;
+  margin: 0 auto;
+}
+
+.about-row {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 90vw;
+  margin: 2rem auto;
+  background-color: blue;
+  height: 100%;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.about-col {
+  height: 100%;
+  width: 27%;
+  background-color: red;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+}
+
+.about-avatar {
+  height: 40%;
+  width: 100%;
+  background-color: green;
+}
+
+.about-text {
+  height: 80%;
+  width: 90%;
+  background-color: yellow;
+}
+
+.about-ads {
+  background-color: purple;
+  height: 20%;
+  width: 100%;
+}
+
+#about-ads {
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+html,
+body,
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  font-size: 62.5%;
+}
+/*# sourceMappingURL=main.css.map */
