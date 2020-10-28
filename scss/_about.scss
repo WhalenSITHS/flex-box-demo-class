@@ -1,45 +1,39 @@
 @import "_variables.scss";
 @import "_mixins.scss";
+
 .about {
   height: 100vh;
-  width: 99vw;
-}
-.about-header {
-  font-size: 4rem;
-  text-align: center;
-  margin: 0 auto;
+  margin: 2rem auto;
 }
 .about-row {
-  display: flex;
-  width: 90vw;
-  margin: 2rem auto;
-  background-color: blue;
-  height: 100%;
+  @include flex-row-center;
   justify-content: space-between;
+  height: 95%;
+  width: 80vw;
+  margin: 0 auto;
 }
-
 .about-col {
   height: 100%;
-  width: 27%;
-  background-color: red;
+  width: 24%;
+  background-color: green;
   @include flex-col-center;
   justify-content: space-evenly;
 }
-.about-avatar {
+.about-image {
+  height: 25%;
+}
+
+.about-text {
+  color: #fff;
+  font-size: 2.2rem;
+  padding: 1rem;
+  text-align: center;
+  margin: 0 auto;
+}
+
+.about-thumbnail {
   height: 40%;
   width: 100%;
-  background-color: green;
-}
-.about-text {
-  height: 80%;
-  width: 90%;
-  background-color: yellow;
-}
-.about-ads {
-  background-color: purple;
-  height: 20%;
-  width: 100%;
-}
-#about-ads {
-  justify-content: space-between;
+  background-image: url(../img/koala.jpg);
+  background-size: cover;
 }
