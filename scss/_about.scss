@@ -2,44 +2,39 @@
 @import "_mixins.scss";
 .about {
   height: 100vh;
-  width: 99vw;
-}
-.about-header {
-  font-size: 4rem;
-  text-align: center;
-  margin: 0 auto;
 }
 .about-row {
-  display: flex;
-  width: 90vw;
-  margin: 2rem auto;
-  background-color: blue;
   height: 100%;
+  width: 85vw;
+  margin: 2rem auto;
+  background-color: red;
+  @include flex-row-center;
   justify-content: space-between;
 }
-
 .about-col {
-  height: 100%;
-  width: 27%;
-  background-color: red;
+  width: 30%;
+  height: 90%;
+  background-color: blue;
   @include flex-col-center;
   justify-content: space-evenly;
 }
-.about-avatar {
-  height: 40%;
-  width: 100%;
-  background-color: green;
+.about-gallery-img {
+  width: 90%;
 }
 .about-text {
-  height: 80%;
-  width: 90%;
-  background-color: yellow;
+  font-size: 2rem;
+  color: #fff;
 }
-.about-ads {
-  background-color: purple;
-  height: 20%;
+.about-thumbnail {
   width: 100%;
+  height: 30%;
+  background-size: cover;
+  background-position: center;
+  padding: 1rem;
 }
-#about-ads {
-  justify-content: space-between;
+.about-thumbnail-1 {
+  background-image: url(../img/penguin.jpg);
+}
+.about-thumbnail-2 {
+  background-image: url(../img/penguin.jpg);
 }
