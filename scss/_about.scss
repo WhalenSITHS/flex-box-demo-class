@@ -11,6 +11,9 @@
   height: 95%;
   width: 80vw;
   margin: 0 auto;
+  @media screen and (max-width: $phone) {
+    @include flex-col-center;
+  }
 }
 .about-col {
   height: 100%;
@@ -18,9 +21,23 @@
   background-color: green;
   @include flex-col-center;
   justify-content: space-evenly;
+  @media screen and (max-width: $phone) {
+    width: 100%;
+    height: auto;
+    background-color: greenyellow;
+  }
+  @media screen and (max-width: $tablet) {
+    width: 50%;
+    height: auto;
+    background-color: blue;
+  }
 }
 .about-image {
   height: 25%;
+  @media screen and (max-width: $phone) {
+    width: 100%;
+    height: auto;
+  }
 }
 
 .about-text {
