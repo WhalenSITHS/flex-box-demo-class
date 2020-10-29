@@ -1,45 +1,32 @@
 @import "_variables.scss";
 @import "_mixins.scss";
+
 .about {
   height: 100vh;
-  width: 99vw;
+  @include flex-row-center;
+  justify-content: space-around;
 }
-.about-header {
-  font-size: 4rem;
-  text-align: center;
-  margin: 0 auto;
-}
-.about-row {
-  display: flex;
-  width: 90vw;
-  margin: 2rem auto;
-  background-color: blue;
-  height: 100%;
-  justify-content: space-between;
-}
-
 .about-col {
-  height: 100%;
-  width: 27%;
-  background-color: red;
+  height: 90%;
+  width: 25%;
+  background-color: blue;
   @include flex-col-center;
   justify-content: space-evenly;
 }
-.about-avatar {
-  height: 40%;
-  width: 100%;
-  background-color: green;
+.about-img {
+  height: 25%;
 }
 .about-text {
-  height: 80%;
-  width: 90%;
-  background-color: yellow;
+  font-size: 2.2rem;
+  padding: 4rem;
+  text-align: center;
 }
-.about-ads {
-  background-color: purple;
-  height: 20%;
+.about-picture-47 {
+  height: 40%;
   width: 100%;
+  background-image: url(../img/giraffe.jpg);
+  background-size: cover;
 }
-#about-ads {
-  justify-content: space-between;
+.second-class {
+  width: 33%;
 }
