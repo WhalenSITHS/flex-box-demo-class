@@ -1,22 +1,14 @@
-@import "_variables.scss";
-@import "_mixins.scss";
+@import "_variables";
+@import "_mixins";
 
 .header {
+  background-color: $primary-color;
+  color: #fff;
   height: 95vh;
-  background-image: linear-gradient(
-      to right bottom,
-      rgba($accent-color, 0.5),
-      rgba($accent-color, 0.5)
-    ),
-    url(../img/giraffe.jpg);
-  background-size: cover;
-  background-attachment: fixed;
   @include flex-col-center;
   justify-content: center;
 }
 .header-title {
   font-size: 8rem;
-  text-transform: uppercase;
   text-align: center;
-  color: #fff;
 }

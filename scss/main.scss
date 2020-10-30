@@ -1,11 +1,11 @@
-@import "_variables.scss";
-@import "_header.scss";
-@import "_about.scss";
+@import "_variables";
+@import "_header";
 html,
 body,
 * {
   margin: 0;
   padding: 0;
-  box-sizing: border-box; //how we measure elements
-  font-size: 62.5%; //1rem === 10px,  accessability, media queries/responsive design
+  box-sizing: border-box; //how we measure the space an element occupies
+  //header === 300px + 20px of padding === 300px space taken up
+  font-size: 62.5%; //1 rem === 10px, accessability, media queries/responsive design
 }
