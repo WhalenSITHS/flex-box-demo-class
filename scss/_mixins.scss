@@ -3,7 +3,7 @@
   flex-direction: column;
   align-items: center;
 }
-@mixin flex-col-center {
+@mixin flex-row-center {
   display: flex;
   flex-direction: row;
   align-items: center;
